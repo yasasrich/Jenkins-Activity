@@ -31,5 +31,3 @@ Before you do this activity, please complete the [previous activity.](https://gi
 - Edit the `testng.xml` to include the two test classes you've written.
 
 - If you want to see the solution, you can see check the `solution` branch.
-
-# Once this is complete, open [this page]() to see the instructions for jenkins.
