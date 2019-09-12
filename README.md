@@ -7,7 +7,7 @@ Before you do this activity, please complete the [previous activity.](https://gi
 - This repository's structure is based on the Page Object Model structure.
 - In the `com.training.pom.pages` package, you will find 2 files: `AlertsPage.java` and `BasePage.java`
     - `BasePage.java` contains all the common functions and elements between all webpages.
-    - `AlertsPage.java` represents the elements in the (Robots Alerts Page)[https://robots.liberari.com/jsalerts].
+    - `AlertsPage.java` represents the elements in the [Robots Alerts Page](https://robots.liberari.com/jsalerts).
 
 - In the `com.training.pom.tests` package, you will find 2 files: `AlertsTest.java` and `BaseTest.java`
     - `BaseTest.java` contains all the common testing functions for all tests.
@@ -21,8 +21,8 @@ Before you do this activity, please complete the [previous activity.](https://gi
 - Fork this repository
 - Clone your fork
 - In the `com.training.pom.pages` package, create the following two files with the specified content:
-    - `iframePage.java`: This should represent all the elements in the (Robots iFrames Page)[https://robots.liberari.com/iframes].
-    - `iframeceptionPage.java`: This should represent all the elements in the (Robots iFrameception Page)[https://robots.liberari.com/iframeception].
+    - `iframePage.java`: This should represent all the elements in the [Robots iFrames Page](https://robots.liberari.com/iframes).
+    - `iframeceptionPage.java`: This should represent all the elements in the [Robots iFrameception Page](https://robots.liberari.com/iframeception).
     
 - In the `com.training.pom.tests` package, create the following two files with the specified content:
     - `iframeTest.java`: This should contain any 2 tests for `iframePage.java`. The tests you write are up to you as long as they are valid.
@@ -32,4 +32,4 @@ Before you do this activity, please complete the [previous activity.](https://gi
 
 - If you want to see the solution, you can see check the `solution` branch.
 
-# Once this is complete, open (this page)[] to see the instructions for jenkins.
+# Once this is complete, open [this page]() to see the instructions for jenkins.
