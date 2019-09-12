@@ -1,0 +1,9 @@
+<suite name="Suite" parallel="methods">
+    <test name="Tests">
+        <classes>
+            <class name="com.training.pom.tests.AlertsTest" />
+            <class name="com.training.pom.tests.iframeTest" />
+            <class name="com.training.pom.tests.iframeceptionTest" />
+        </classes>
+    </test>
+</suite>
