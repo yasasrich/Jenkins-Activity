@@ -8,12 +8,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn install'
+                sh 'mvn compile'
             }
         }
         stage('Test') {
             steps {
-                wrap([$class: 'Xvfb', debug: true, displayName: 99, displayNameOffset: 0]){
+                wrap([$class: 'Xvfb', debug: true, displayName: 50]){
                     sh 'mvn test'
                 }
             }
