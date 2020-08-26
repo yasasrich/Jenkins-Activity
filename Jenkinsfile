@@ -3,7 +3,6 @@ pipeline {
 
     environment {
         JAVA_HOME = '/usr/lib/jvm/java'
-        PATH = '/usr/local/bin:$PATH'
     }
 
     stages {
