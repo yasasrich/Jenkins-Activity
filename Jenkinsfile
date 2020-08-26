@@ -3,13 +3,13 @@ pipeline {
 
     environment {
         JAVA_HOME = '/usr/lib/jvm/java'
-        PATH = '/usr/local/bin:$PATH'
+        PATH+LOCAL = '/usr/local/bin'
     }
 
     stages {
         stage('Build') {
             steps {
-                sh 'mvn build'
+                sh 'mvn install'
             }
         }
         stage('Test') {
