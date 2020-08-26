@@ -12,9 +12,6 @@ public class BaseTest {
 	public void setup() {
 		// Create a new FirefoxDriver. All our test classes will use this.
 		driver = new FirefoxDriver();
-		
-		// Maximize the Window
-		driver.manage().window().maximize();
 	}
 	
 	@AfterClass
