@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                wrap([$class: 'Xvfb', debug: 'true']){
+                wrap([$class: 'Xvfb', debug: 'true', displayName: 99]){
                     sh 'ls -a'
                 }
             }
