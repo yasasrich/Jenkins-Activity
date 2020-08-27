@@ -23,5 +23,10 @@ pipeline {
                 step([$class: 'Publisher', escapeExceptionMsg: true, escapeTestDescp: true, failureOnFailedTestConfig: false, reportFilenamePattern: '**/testng-results.xml', showFailedBuilds: false, thresholdMode: 2, unstableSkips: 100, failedSkips: 100, unstableFails: 0, failedFails: 100])
             }
         }
+        stage('Post') {
+            steps {
+                echo 'Tests finished'
+            }
+        }
     }
 }
