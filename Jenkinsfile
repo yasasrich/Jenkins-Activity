@@ -13,14 +13,14 @@ pipeline {
         }
         stage('Test') {
             steps {
-                wrap([$class: 'Xvfb', debug: true, displayName: 99, displayNameOffset: 0]) {
+                wrap([$class: 'Xvfb', debug: true, displayName: 49, displayNameOffset: 0, timeout: 10]) {
                     sh 'mvn test'
                 }
             }
         }
         stage('Report') {
             steps {
-                step([$class: 'Publisher', escapeExceptionMsg: true, escapeTestDescp: true, failureOnFailedTestConfig: false, reportFilenamePattern: '**/testng-results.xml', showFailedBuilds: false, thresholdMode: 2, unstableSkips: 100, failedSkips: 100, unstableFails: 0, failedFails: 100])
+                step([$class: 'Publisher'])
             }
         }
         stage('Post_Actions') {
