@@ -13,7 +13,7 @@ public class AlertsPage extends BasePage {
 	}
 	
 	// Page Variables
-	String URL = new String("https://robots.liberari.com/jsalerts/");
+	String URL = new String("https://www.training-support.net/selenium/javascript-alerts");
 	
 	// Web Elements
 	public By SimpleAlertButton = By.cssSelector("button#simple");
